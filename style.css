@@ -1,0 +1,67 @@
+*{
+	padding:0;
+	margin:0;
+	background-color:skyblue;
+	}
+	
+	#box{
+	margin-top:20px;
+	height:65vh;
+	}
+	#game{
+	height:60vmin;
+	width:60vmin;
+	background-color:ckayblue;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	gap:10px;
+	}
+	.btn{
+	height:18vmin;
+	width:18vmin;
+	border:none;
+	border-radius:10px;
+	background-color:white;
+	font-size:6vh;
+	font-weight:900;
+	box-shadow:10px 10px 60px rgba(0,0,0,0.2);
+	}
+	.rsbtn{
+	margin-top:6rem;
+	width:70%;
+	}
+	.rb{
+	width:49%;
+	padding:1rem;
+	border:none;
+	background-color:red;
+	border-radius:10px;
+	font-size:1.5rem;
+	}
+	.rb:hover{
+	box-shadow:0 0 50px red;
+	}
+	.sb{
+	width:49%;
+	padding:1rem;
+	border:none;
+	background-color:#00ff00;
+	border-radius:10px;
+	font-size:1.5rem;
+	}
+	.sb:hover{
+	box-shadow:0 0 50px green;
+	}
+	.anuns{
+	font-size:3vh;
+	}
+	.msg{
+	color:white;
+	font-size:3vh;
+	}
+	.msg2{
+	color:white;
+	font-size:vh;
+	}
